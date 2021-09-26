@@ -3,184 +3,341 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Débora Torquato | Harmonização Facial</title>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="/css/bootstrap.css">
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+
+  <link rel="shortcut icon" href="/img/debora-torquato-favicon.ico" />
 
 </head>
 <body>
-  <div class="infotopo-bg">
-    <div class="container infotopo">
-      <p>
-        <span class="bi bi-geo-alt-fill"></span>
-        RIOMAR TRADE CENTER | R. Des. Lauro Nogueira, 1500, sala 710 - Papicu, Fortaleza/CE
-      </p>
-      <a href="https://api.whatsapp.com/send/?phone=5585984055675&text&app_absent=0">
-        <span class="bi bi-whatsapp"></span>
-        (85) 98405-5675
-      </a>
-      <a href="mailto:deboramtorquato@gmail.com">
-        <span class="bi bi-envelope-fill"></span>
-        deboramtorquato@gmail.com
-      </a>
+  <div class="infotopo py-2">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-7 d-flex justify-content-md-start">
+          <small>
+            <span class="bi bi-geo-alt-fill"></span>
+            RIOMAR TRADE CENTER | R. Des. Lauro Nogueira, 1500, sala 710 - Papicu, Fortaleza/CE
+          </small>
+        </div>
+        <div class="col-md-5 d-flex justify-content-md-end pr-0">
+          <small>
+            <a href="https://api.whatsapp.com/send/?phone=5585984055675&text&app_absent=0">
+              <span class="bi bi-whatsapp"></span>
+              (85) 98405-5675
+            </a>
+          </small>
+          <small class="text-nowrap">
+            <a href="mailto:deboramtorquato@gmail.com">
+              <span class="bi bi-envelope-fill"></span>
+              deboramtorquato@gmail.com
+            </a>
+          </small>
+        </div>
+      </div>
     </div>
   </div>
-  <header>
-    <nav class="navbar">
-      <divs class="container">
-        <div>
+
+  <header class="main-header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg main-nav px-0">
           <a class="navbar-brand" href="#">
-            <img src="img/logo-dra-debora-torquato.png" alt="Marca Dra. Débora Torquato"  height="90">
+            <img class="img-fluid" src="img/logo-dra-debora-torquato.png" alt="Marca Dra. Débora Torquato">
           </a>
-        </div>
-        <div>
-          <ul>
-            <li>Sobre Mim</li>
-            <li>Procedimentos</li>
-            <li>Depoimentos</li>
-            <li>Clínica</li>
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav text-uppercase f1">
+            <li><a class="active active-first" href="#">Sobre Mim</a></li>
+            <li><a href="#procedimentos">Procedimentos</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#clinica">Clínica</a></li>
           </ul>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
   </header>
 
-  <section>
-    <img src="/img/banner-principal-debora-torquato.png" alt="Dra. Débora e sua cliente" width="100%">
+  <section class="banner-topo align-items-center">
     <div class="container">
-      <div class="row">
-        <div class="col-md-5">
+      <div class="row align-items-center alt-banner">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-9 text-top">
           <h1>Te ajudo a se sentir mais bonita!</h1>
-          <a class="btn btn-lg" href="https://api.whatsapp.com/send/?phone=5585984055675&text&app_absent=0">Quero mais informações</a>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-4">
-          <img src="/img/preenchimento-labial-con.png" alt="Preenchimento Labial">
-          <p>Preenchimento Labial</p>
-          <a href="#preenchimentoLabial">Saiba mais...</a>
-        </div>
-        <div class="col-md-4">
-          <img src="/img/harmonizacao-facial-icon.png" alt="Harmonização Facial">
-          <p>Harmonização Facial</p>
-          <a href="#harmonizacaoFacial">Saiba mais...</a>
-        </div>
-        <div class="col-md-4">
-          <img src="/img/Bioestimuladores.png" alt="Bioestimuladores">
-          <p>Bioestimuladores</p>
-          <a href="#bioestimuladores">Saiba mais...</a>
+          <a class="btn btn-outline-light" href="https://api.whatsapp.com/send/?phone=5585984055675&text&app_absent=0" target="_blank">Quero mais informações</a>
         </div>
       </div>
     </div>
   </section>
 
-  <section>
+  <div class="procedimentos-topo">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-4 px-4">
+          <div class="row card-procedimentos">
+            <div class="col-md-2 col-sm-2 col-2 pl-0 mr-lg-3">
+              <img src="/img/preenchimento-labial-con.png" alt="Preenchimento Labial">
+            </div>
+            <div class="col-md-9 col-sm-9 col-9 pl-0">
+              <p class="mb-0">Preenchimento Labial</p>
+              <a href="#procedimentos">Saiba mais...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 px-4">
+          <div class="row card-procedimentos">
+            <div class="col-md-2 col-sm-2 col-2 pl-0 mr-lg-3">
+              <img src="/img/harmonizacao-facial-icon.png" alt="Harmonização Facial">
+            </div>
+            <div class="col-md-9 col-sm-9 col-9 pl-0">
+              <p class="mb-0">Harmonização Facial</p>
+              <a href="#procedimentos">Saiba mais...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 px-4">
+          <div class="row card-procedimentos">
+            <div class="col-md-2 col-sm-2 col-2 pl-0 mr-lg-3">
+              <img src="/img/Bioestimuladores.png" alt="Bioestimuladores">
+            </div>
+            <div class="col-md-9 col-sm-9 col-9 pl-0">
+              <p class="mb-0">Bioestimuladores</p>
+              <a href="#procedimentos">Saiba mais...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="sobreMim" class="container-bg-padrao py-5">
+    <div class="container">
+      <div class="row align-items-center sobre-mim">
+        <div class="col-md-6 mb-5 pb-5 mt-3 order-1 order-md-0">
           <h2>Olá! Sou Débora Torquato</h2>
           <p>Cirurgiã dentista, formada pela Universidade Federal do Ceará, especialista em Harmonização Orofacial e em Periodontia.</p>
-          <a href="https://api.whatsapp.com/send/?phone=5585984055675&text&app_absent=0">Agendar Consulta</a>
+          <a class="btn btn-outline-primary" href="https://api.whatsapp.com/send/?phone=5585984055675&text&app_absent=0">Agendar Consulta</a>
         </div>
-        <div class="col-md-6">
-          <img src="/img/dra-debora-torquato.jpg" alt="Dra. Débora Torquato" width="100%">
+        <div class="col-md-6 col-sm-12 d-flex justify-content-center order-0 order-md-1 img-tm">
+          <img class="img-fluid" src="/img/dra-debora-torquato.jpg" alt="Dra. Débora Torquato">
         </div>
       </div>
     </div>
   </section>
 
-  <section>
+  <section id="procedimentos" class="container-bg-primary procedimentos">
     <div class="container">
-      <div class="row text-center">
+      <div class="row text-center mt-md-5 mb-3">
+        <div class="col-md-12">
         <h2>Procedimentos</h2>
+        </div>
       </div>
+
+
       <div class="row">
-        <div class="col-md-4 card">
-          <img src="" alt="">
-          <h3>Preenchimento Labial</h3>
-          <p>Sabe um dos pilares para lábios verdadeiramente harmônicos? É ter LÁBIOS que conversam e combinam com os seus DENTES.Essa é uma importante missão da Harmonização Orofacial, minha especialidade como cirurgiã dentista.Será que o seu sorriso é harmônico?</p>
-        </div>
-        <div class="col-md-4 card">
-          <img src="" alt="">
-          <h3>Harmonização Facial</h3>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
-        </div>
-        <div class="col-md-4 card">
-          <img src="" alt="">
-          <h3>Bioestimuladores</h3>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
-        </div>
-      </div>
-      <div class="row text-center">
-        <a class="btn btn-lg" href="https://api.whatsapp.com/send/?phone=5585984055675&text&app_absent=0">Agendar Consulta</a>
-      </div>
-    </div>
-  </section>
+        <div class="col-12">
+            <div id="caroulselCards" class="carousel slide" data-ride="carousel">
 
-  <section>
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-md-12">
-          <h2>Depoimentos</h2>
-        </div>
-      </div>
-      <div class="row">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
 
-      </div>
-    </div>
-  </section>
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="img-fluid" alt="Preenchimento Labial" src="/img/preenchimento-labial.png">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Preenchimento Labial</h4>
+                                        <p class="card-text">
+                                          Sabe um dos pilares para lábios verdadeiramente harmônicos? É ter LÁBIOS que conversam e combinam com os seus DENTES.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="img-fluid" alt="Harmonização Facial" src="/img/harmonizacao-facial.png">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Harmonização Facial</h4>
+                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 
-  <section>
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-md-12">
-          <h2>Me encontre na Clínica Inspira</h2>
-          <p>Localizada no RioMar Trade Center, a clínica Inspira, é o nosso local de encontro e realização dos procedimentos. Aqui, você encontrará conforto e uma ótima estrutura para os cuidados com sua face e sorriso.</p>
-        </div>
-        <div class="row text-center">
-          <div class="carousel-item">
-            <img src="..." alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>...</h5>
-              <p>...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="img-fluid" alt="Bioestimuladores" src="/img/bioestimuladores-foto.png">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Bioestimuladores</h4>
+                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="img-fluid" alt="100%x280" src="/img/ultrassom.png">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Ultrassom Microfocado</h4>
+                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="img-fluid" alt="100%x280" src="/img/fios-faciais.png">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Fios Faciais</h4>
+                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="img-fluid" alt="100%x280" src="img/skinboosters.png">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Skinboosters</h4>
+                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="col-12 text-center">
+              <a class="btn-carousel mb-3" href="#caroulselCards" role="button" data-slide="prev">
+                <span class="bi bi-arrow-left-square-fill"></span>
+              </a>
+              <a class="btn-carousel mb-3" href="#caroulselCards" role="button" data-slide="next">
+                <span class="bi bi-arrow-right-square-fill"></span>
+              </a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row text-center my-3">
+        <div class="col-md-12">
+          <a class="btn btn-outline-info" href="https://api.whatsapp.com/send/?phone=5585984055675&text&app_absent=0" target="_blank">Agendar Consulta</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="depoimentos" class="container-bg-padrao">
+    <div class="container">
+      <div class="row text-center my-5">
+        <div class="col-md-12">
+          <h2 class="text-secondary">Depoimentos</h2>
+        </div>
+      </div>
+      <div class="row pb-3 text-primary">
+        <div class="col-md-4 text-center mb-4">
+          <img class="w-50 mb-3 img-client" src="/img/client-1.jpeg" alt="Cliente 1">
+          <div>
+            <h5 class="font-italic">“It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.”</h5>
+            <small class="text-secondary">Nome Sobrenome</small>
+          </div>
+        </div>
+        <div class="col-md-4 text-center mb-4">
+          <img class="w-50 mb-3 img-client" src="/img/client-2.jpeg" alt="Cliente 2">
+          <div>
+            <h5 class="font-italic">“It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.”</h5>
+            <small class="text-secondary">Nome Sobrenome</small>
+          </div>
+        </div>
+        <div class="col-md-4 text-center mb-4">
+          <img class="w-50 mb-3 img-client" src="/img/client-3.jpeg" alt="Cliente 3">
+          <div>
+            <h5 class="font-italic">“It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.”</h5>
+            <small class="text-secondary">Nome Sobrenome</small>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section>
+  <section id="clinica" class="container-bg-primary">
     <div class="container">
-      <div class="row">
+      <div class="row text-center">
         <div class="col-md-12">
-          <h2>Me siga no Instagram</h2>
-          <p>Compartilho dicas, curiosidades e mais informações sobre os procedimentos.</p>
+          <h2 class="pb-2">Me encontre na Clínica Inspira</h2>
+          <p class="text-white pb-2">
+            Localizada no RioMar Trade Center, a clínica Inspira, é o nosso local de encontro e realização dos procedimentos. Aqui, você encontrará conforto e uma ótima estrutura para os cuidados com sua face e sorriso.
+          </p>
+        </div>
+      </div>
+      <div id="caroulselGaleriaImg" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#caroulselGaleriaImg" data-slide-to="0" class="active"></li>
+          <li data-target="#caroulselGaleriaImg" data-slide-to="1"></li>
+          <li data-target="#caroulselGaleriaImg" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="w-100 mx-auto carousel-item active">
+            <img class="d-block w-75 mx-auto" src="img/Inspira-1.jpg" alt="First slide">
+          </div>
+          <div class="w-100 mx-auto carousel-item">
+            <img class="d-block w-75 mx-auto" src="img/Inspira-2.jpeg" alt="Second slide">
+          </div>
+          <div class="w-100 mx-auto carousel-item">
+            <img class="d-block w-75 mx-auto" src="img/Inspira-3.jpeg" alt="Third slide">
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <footer>
+  <section class="container-bg-padrao py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <img src="" alt="">
-          <p><span>
-            RIOMAR TRADE CENTER - R. Des. Lauro Nogueira, 1500 - Papicu, Fortaleza/CE
-          </span></p>
+        <div class="col-md-12 text-center">
+          <h2 class="text-secondary">Me siga no Instagram</h2>
+          <p class="text-primary">Compartilho dicas, curiosidades e mais informações sobre os procedimentos.</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <button
+      type="button"
+      class="btn btn-danger btn-floating"
+      id="btn-back-to-top"
+      >
+      <span class="bi bi-chevron-up"></span>
+  </button>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row align-items-center">
         <div class="col-md-4">
+          <img src="/img/logo-dra-debora-monocromatica.png" alt="Marca Dra. Débora Torquato">
+          <address>
+            RIOMAR TRADE CENTER - R. Des. Lauro Nogueira, 1500 - Papicu, Fortaleza/CE
+          </address>
+        </div>
+        <div class="col-md-4 footer-contatos">
           <h5>Entre em contato:</h5>
           <a href="https://api.whatsapp.com/send/?phone=5585984055675&text&app_absent=0">
             <span class="bi bi-whatsapp"></span>
             (85) 98405-5675
           </a>
-          <a href="mailto:deboramtorquato@gmail.com">
+          <a class="text-nowrap" href="mailto:deboramtorquato@gmail.com">
             <span class="bi bi-envelope-fill"></span>
             deboramtorquato@gmail.com
           </a>
@@ -189,21 +346,23 @@
               @dradeboratorquato
           </a>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 footer-separar">
           <h5>Invista em você e se sinta ainda mais bonita.</h5>
-          <a class="btn btn-lg" href="https://api.whatsapp.com/send/?phone=5585984055675&text&app_absent=0">Agendar Consulta</a>
+          <a class="btn btn-outline-info" href="https://api.whatsapp.com/send/?phone=5585984055675&text&app_absent=0" target="_blank">Agendar Consulta</a>
+        </div>
+      </div>
+      <div class="row infobottom align-items-center">
+        <div class="col-md-12 text-center">
+          <span><script>document.write(new Date().getFullYear());</script> - Dra. Débora Torquato | Feito com <span class="bi bi-suit-heart-fill"></span> por <a href="https://www.linkedin.com/in/nikelyfedechen/" target="_blank">Nikely Fedechen</a></span>
         </div>
       </div>
     </div>
   </footer>
 
-  <div>
-    <div class="container">
-      <div class="row text-center">
-        <span>2021 - Dra. Débora Torquato | Feito com amor por <a href="https://www.linkedin.com/in/nikelyfedechen/">Nikely Fedechen</a></span>
-      </div>
-    </div>
-  </div>
+  <script ttype="text/javascript" src="/js/jquery-3.3.1.slim.min.js"></script>
+  <script ttype="text/javascript" src="/js/popper.min.js"></script>
+  <script ttype="text/javascript" src="/js/bootstrap.min.js"></script>
+  <script ttype="text/javascript" src="/js/scripts.js"></script>
 
 </body>
 </html>
